@@ -132,6 +132,92 @@ background-color: var(--second-color);
     font-size: 13px;
     font-family: 'Roboto';
   }
+  /*home*/
+  #con{
+    margin-top: 130px !important;
+  }.trade{
+   font-size: 45px;
+   font-weight: bolder;
+   color: var(--second-color);
+  }.demo{
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--second-color);
+  }#ss{
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 30px 5px 30px !important;
+    font-weight: 600;
+  }
+  #ss:hover{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 30px 5px 30px !important;
+    font-weight: 600;
+  }
+  #ss-1{
+    color: var(--first-color);
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid var(--first-color);
+    padding: 5px 30px 5px 30px !important;
+    margin-left: 10px;
+  }
+  #ss-1:hover{
+    background-color: var(--second-color);
+    color: var(--third-color);
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid var(--second-color);
+    padding: 5px 30px 5px 30px !important;
+    margin-left: 10px;
+  }
+  #colopus{
+    width: 100%;
+    margin-top: -50px;
+  }.yello{
+    width: 370px;
+  }.new-bona{
+    font-weight: bold;
+}
+
+
+
+.carousel-indicators .active{
+    background-color: var(--first-color) !important;
+    width: 17px !important;
+    height: 17px !important;
+}
+#cio{
+    margin-top: -115px !important;
+}
+.carousel-indicators #cio{
+    box-sizing: content-box;
+
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    line-height: 30px;
+    border-radius: 50% !important;
+    text-align: center;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: unset;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: unset;
+    border-top: 0;
+    border-bottom: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+    opacity: 1;
+    
+}
+.open{
+    font-weight: 400;
+}
   @media (max-width:540px){
     .top h2{
         margin-left: 45px;
@@ -144,4 +230,14 @@ background-color: var(--second-color);
         margin-left: 14px;
         color: var(--second-color);
       }
+      .yello{
+        width: 300px !important;
+      }
+      #colopus{
+        width: 100%;
+        margin-top: 0px;
+      }
+      #cio{
+        margin-top: 0px !important;
+    }
   }
