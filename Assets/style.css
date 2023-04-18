@@ -506,6 +506,13 @@ margin-top: 80px !important;
 } #sm .accordion-button:not(.collapsed)::after {
   background-image:url('../Assets/image/Frame.svg') !important;
   transform: rotate(-180deg);
+}/*cfd*/
+.what{
+  color: var(--first-color);
+}
+.more{
+  color: var(--second-color);
+  line-height: 28px;
 }
   @media (max-width:540px){
     .top h2{
@@ -571,6 +578,15 @@ margin-top: 80px !important;
   margin-top: 30px;
 }#dd{
   margin-top: 20px;
+}.what{
+  color: var(--first-color);
+ 
+}
+.more{
+  color: var(--second-color);
+  line-height: 28px;
+ 
+  font-size: 20px;
 }
   }
   @media (min-width:1400px) and (max-width:1890px){
