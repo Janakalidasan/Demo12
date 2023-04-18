@@ -379,9 +379,32 @@ background-color: var(--second-color);
 font-size: 12px;
 color: var(--first-color);
 }#apple{
-  width: 30%;
+  width: 40%;
 }#up{
   margin-top: -10%;
+}#exampleInputEmail1{
+  width: 100% !important;
+  margin-top: 5%;
+  background-color: #CCCCCC;
+
+  
+}#exampleInputEmail1-1{
+  width: 100% !important;
+  background-color: var(--first-color);
+  font-weight: bold !important;
+}.signin{
+  margin-top: 10% !important;
+  color: var(--second-color);
+  
+}#imgs{
+  background-image: url('../Assets/image/Group\ 15.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10%;
+}.blak{
+  background-color: var(--third-color);
+  padding: 0px 25px 40px 25px;
 }
   @media (max-width:540px){
     .top h2{
