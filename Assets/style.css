@@ -289,7 +289,7 @@ background-color: var(--second-color);
   color: var(--second-color);
 }.small-1{
   font-family: 'Roboto';
-  font-size: 14px;
+  font-size: 12px;
   
   color: var(--first-color);
 }.bro{
@@ -497,9 +497,15 @@ margin-top: 80px !important;
   background-color: #141E30;
   color: var(--second-color);
 }
-.accordion-button::after {
+ #sms .accordion-button::after {
   
-  background-image: url('../Assets/image/down-arrow.svg') !important;
+  background-image: url('../Assets/image/material-symbols_keyboard-arrow-down.svg') !important;
+}#sm .accordion-button::after {
+  
+  background-image: url('../Assets/image/Frame-2.svg') !important;
+} #sm .accordion-button:not(.collapsed)::after {
+  background-image:url('../Assets/image/Frame.svg') !important;
+  transform: rotate(-180deg);
 }
   @media (max-width:540px){
     .top h2{
@@ -548,7 +554,24 @@ margin-top: 80px !important;
       padding-top: 30%;
       color: var(--first-color);
       font-size: 40px;
-  }
+  }.small {
+    font-family: 'Roboto';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: var(--first-color);
+    margin-top: 30px;
+}.small-1 {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: var(--first-color);
+  margin-top: 25px;
+}#phone {
+  width: 90% !important;
+  margin-top: 30px;
+}#dd{
+  margin-top: 20px;
+}
   }
   @media (min-width:1400px) and (max-width:1890px){
     #bac{
