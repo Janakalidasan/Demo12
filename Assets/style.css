@@ -2,6 +2,7 @@
 body{
     
     font-family: 'Poppins', sans-serif;
+    
 }
 /*text and bg color*/
 :root{
@@ -202,8 +203,8 @@ background-color: var(--second-color);
     line-height: 30px;
     border-radius: 50% !important;
     text-align: center;
-    margin-right: 3px;
-    margin-left: 3px;
+    margin-right: 5px;
+    margin-left: 6px;
     text-indent: unset;
     cursor: pointer;
     background-color: #fff;
@@ -217,7 +218,32 @@ background-color: var(--second-color);
 }
 .open{
     font-weight: 400;
-}
+}.small{
+  font-family: 'Roboto';
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  color: var(--first-color);
+}.news{
+  display: flex;
+  justify-content: center;
+  color: var(--second-color);
+  text-align: center;
+}.never{
+  display: flex;
+  justify-content: center;
+  color: var(--second-color);
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+} .csc{
+  display: flex;
+  justify-content: center;}
+/* }.tradingview-widget-container{
+  width: 500px !important;
+  height: 500px !important;
+
+} */
   @media (max-width:540px){
     .top h2{
         margin-left: 45px;
