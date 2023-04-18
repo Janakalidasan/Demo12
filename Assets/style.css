@@ -459,6 +459,48 @@ margin-top: 80px !important;
 
     margin-top: 6%;
   }
+  /*trading*/
+  .choose{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--first-color);
+  }.while{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--second-color);
+    margin-top: 30px !important;
+  }
+  .table{
+    border: 2px solid #EBEBEB !important;
+    background-color: #1E2738;
+  }
+.table thead tr th{
+  border: 2px solid #EBEBEB !important;
+  height: 50px;
+  color: var(--second-color);
+  
+}.table tbody tr td{
+  border: 2px solid #EBEBEB !important;
+  height: 50px;
+  color: var(--second-color);
+}.fqa{
+  font-weight: 500;
+  color: var(--first-color);
+}#vor{
+  border: 1px solid #FFFDFD;
+  background-color: #141E30;
+  color: var(--second-color);
+}#ver{
+  border: 1px solid #FFFDFD;
+  background-color: #141E30;
+  color: var(--second-color);
+}
+.accordion-button::after {
+  
+  background-image: url('../Assets/image/down-arrow.svg') !important;
+}
   @media (max-width:540px){
     .top h2{
         margin-left: 25px;
@@ -541,3 +583,4 @@ margin-top: 80px !important;
     font-size: 40px;
 }
   }
+ 
