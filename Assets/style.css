@@ -406,6 +406,52 @@ color: var(--first-color);
   background-color: var(--third-color);
   padding: 0px 25px 40px 25px;
 }
+/*economic*/
+.img {
+  position: relative;
+  text-align: center;
+
+} .centered-1 {
+  text-align: center;
+      display: flex;
+      justify-content: center;
+    padding-top: 10%;
+      color:var(--first-color);
+     
+      font-size: 40px;
+  }
+  .rect-1 {
+    background-image: url('../Assets/image/Frame 1.png');
+    height: 377px;
+    width: 100%;
+    margin-top: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .para-2 {
+     text-align: center;
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 16px;
+  }#yel{
+background-color: #F8E39F;
+height: 300px !important;
+  }.ready{
+    display: flex;
+    justify-content: center;
+   padding-top: 3%;
+
+  }.quicks{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }.no{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
   @media (max-width:540px){
     .top h2{
         margin-left: 25px;
