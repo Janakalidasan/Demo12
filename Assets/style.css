@@ -641,7 +641,7 @@ color: var(--first-color);
    }.tablet-1{
     margin-top: 20px;
     color:var(--second-color);
-    line-height: 20px;
+    line-height: 30px;
     
    }
    .tablet{
