@@ -684,6 +684,23 @@ color: var(--first-color);
     justify-content: center;
     text-align: center;
     color: var(--first-color);
+  }#rw .accordion{
+    border: 1px solid var(--second-color);
+  }#jks .accordion-button{
+    background-color: #141E30;
+    color: var(--second-color);
+  }#jks .accordion-button::after {
+    background-size: 70%;
+    background-image: url('../Assets/image/Frame-2.svg') !important;
+  } #jks .accordion-button:not(.collapsed)::after {
+    background-image:url('../Assets/image/Frame.svg') !important;
+    transform: rotate(-180deg);
+  } #jks .accordion-body{
+    background-color: #141E30;
+    color: var(--second-color);
+    font-size: 13px;
+  }.step{
+    margin-top: 10px;
   }
   @media (max-width:540px){
     
