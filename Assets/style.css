@@ -602,7 +602,15 @@ color: var(--first-color);
   } #rems .accordion-button:not(.collapsed)::after {
     background-image:url('../Assets/image/Frame.svg') !important;
     transform: rotate(-180deg);
-  } .centered-3 {
+  } 
+  #rem .accordion-body{
+    background-color: #141E30;
+    color: var(--second-color);
+  } #rems .accordion-body{
+    background-color: #141E30;
+    color: var(--second-color);
+  }
+  .centered-3 {
     text-align: center;
         display: flex;
         justify-content: center;
