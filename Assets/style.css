@@ -578,6 +578,7 @@ color: var(--first-color);
   }
   #acc .accordion{
      border: 1px solid var(--second-color);
+    
   }#rem .accordion-button{
     background-color:#141E30 ;
     color: var(--second-color);
@@ -716,6 +717,10 @@ color: var(--first-color);
     font-size: 13px;
   }.step{
     margin-top: 10px;
+  }
+  .navbar-toggler{
+   
+   background-color: var(--first-color) !important;
   }
   @media (max-width:540px){
     
