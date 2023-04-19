@@ -846,7 +846,7 @@ color: var(--first-color);
       text-align: center;
       display: flex;
       justify-content: center;
-      padding-top: 30%;
+      padding-top: 0%;
       color: var(--first-color);
       font-size: 40px;
   }.small {
