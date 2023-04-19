@@ -513,7 +513,15 @@ margin-top: 80px !important;
 } #sm .accordion-button:not(.collapsed)::after {
   background-image:url('../Assets/image/Frame.svg') !important;
   transform: rotate(-180deg);
-}/*cfd*/
+}
+#sms .accordion-body{
+  background-color: #141E30;
+  color: var(--second-color);
+}#sm .accordion-body{
+  background-color: #141E30;
+  color: var(--second-color);
+}
+/*cfd*/
 .what{
   color: var(--first-color);
 }
