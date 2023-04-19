@@ -558,7 +558,7 @@ color: var(--first-color);
 }
 .maj{
     color: var(--second-color);
-    font-family: 'Roboto';
+    font-family: 'Poppins', sans-serif;
   }
   #acc .accordion{
      border: 1px solid var(--second-color);
