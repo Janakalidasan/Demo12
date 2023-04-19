@@ -729,6 +729,10 @@ color: var(--first-color);
   .navbar-toggler{
    
    background-color: var(--first-color) !important;
+  }.acc-2 .accordion-flush .accordion-item{
+    border-bottom: 0px;
+  }#acc .accordion-flush .accordion-item{
+    border-bottom: 0px;
   }
   @media (max-width:540px){
     
