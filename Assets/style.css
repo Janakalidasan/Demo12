@@ -488,6 +488,7 @@ margin-top: 80px !important;
   border: 2px solid #EBEBEB !important;
   height: 50px;
   color: var(--second-color);
+  font-weight: lighter;
   
 }.ta .table tbody tr td{
   border: 2px solid #EBEBEB !important;
