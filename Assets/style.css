@@ -553,14 +553,37 @@ color: var(--second-color);
 
 height: 50px;
 color: var(--second-color);
-} #table{
-border: none !important;
-  height: 50px;
-  color: var(--second-color);
-  background-color: none !important;
-  
-  }.maj{
+}.table tbody tr .eur{
+color: var(--first-color);
+}
+.maj{
     color: var(--second-color);
+    font-family: 'Roboto';
+  }
+  #acc .accordion{
+     border: 1px solid var(--second-color);
+  }#rem .accordion-button{
+    background-color:#141E30 ;
+    color: var(--second-color);
+    font-size: 13px;
+  }#rem .accordion-button::after {
+  
+    background-image: url('../Assets/image/Frame-2.svg') !important;
+    background-size: 70%;
+  } #rem .accordion-button:not(.collapsed)::after {
+    background-image:url('../Assets/image/Frame.svg') !important;
+    transform: rotate(-180deg);
+  }
+  #rems .accordion-button{
+    background-color:#141E30 ;
+    color: var(--second-color);
+    font-size: 13px;
+  }#rems .accordion-button::after {
+    background-size: 70%;
+    background-image: url('../Assets/image/Frame-2.svg') !important;
+  } #rems .accordion-button:not(.collapsed)::after {
+    background-image:url('../Assets/image/Frame.svg') !important;
+    transform: rotate(-180deg);
   }
   @media (max-width:540px){
     .top h2{
