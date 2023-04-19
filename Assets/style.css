@@ -788,6 +788,9 @@ color: var(--first-color);
     }
     .classw{
       overflow-x: scroll !important;
+    }.classs{
+      overflow-x: scroll !important;
+      padding-left: 50px;
     }
     .centered-3 {
       text-align: center;
