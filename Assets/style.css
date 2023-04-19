@@ -254,6 +254,7 @@ background-color: var(--second-color);
 }.card-text-1{
   color: #8C8C8C;
   font-size: 11px;
+  
 }.link{
   text-decoration-line: none !important;
   font-size: 13px;
@@ -642,13 +643,13 @@ color: var(--first-color);
     justify-content: center;
   }.mql{
     color: var(--second-color);
-  }.mt-2{
+  }.ob-1{
    
     text-decoration-line: none;
     color: var(--second-color);
     font-size: 14px;
    }
-   .mt-2:hover{
+   .ob-1:hover{
    
     text-decoration-line: none;
     color: var(--first-color);
@@ -657,14 +658,14 @@ color: var(--first-color);
     height: 1px;
     width: 25%;
     margin-top: 10px;
-   }.mt-3{
+   }.ob{
     line-height: 40px;
     text-decoration-line: none;
     color: var(--second-color);
     font-size: 14px;
    
    }
-   .mt-3:hover{
+   .ob:hover{
     line-height: 40px;
     text-decoration-line: none;
     color: var(--first-color);
