@@ -93,7 +93,7 @@ background-color: var(--second-color);
     margin-top: 30px;
 }
 .top h2{
-    margin-left: 30px;
+   
     color: var(--second-color);
     font-size: 30px;
 }.lo li{
@@ -776,6 +776,14 @@ color: var(--first-color);
   }.space-1{
     margin-top: 90px !important;
   }
+  .support{
+    color: var(--second-color);
+  }
+  .support:hover{
+    color: var(--first-color);
+  }#a a{
+    line-height: 30px !important;
+  } 
   @media (max-width:540px){
     .container-fluid{
       padding-left: var(--bs-gutter-x,.45rem) !important;
@@ -814,7 +822,7 @@ color: var(--first-color);
       margin-top: 10px;
   }
     .top h2{
-        margin-left: 25px;
+        
         color: var(--second-color);
         font-size: 30px;
     }
@@ -899,7 +907,7 @@ color: var(--first-color);
     
       height: 385px;
     }.top h2{
-      margin-left: 35px;
+      
       color: var(--second-color);
       font-size: 30px;
   }.lo li{
